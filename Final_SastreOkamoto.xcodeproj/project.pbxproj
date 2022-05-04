@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB3DFEAE2821E791009953EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DFEAD2821E791009953EF /* ContentView.swift */; };
+		FB3DFEB02821E7BB009953EF /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DFEAF2821E7BB009953EF /* Login.swift */; };
+		FB3DFEB22821E7E3009953EF /* MenuPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DFEB12821E7E3009953EF /* MenuPrincipal.swift */; };
+		FB3DFEB62821E8C0009953EF /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DFEB42821E8BF009953EF /* CustomSecureField.swift */; };
+		FB3DFEB72821E8C0009953EF /* CustomTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DFEB52821E8BF009953EF /* CustomTextfield.swift */; };
+		FBABE011282091A2005A298A /* ProxJuegos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABE010282091A2005A298A /* ProxJuegos.swift */; };
+		FBABE013282094E0005A298A /* CrearJuego.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABE012282094E0005A298A /* CrearJuego.swift */; };
+		FBABE01528209507005A298A /* BuscarJuego.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABE01428209507005A298A /* BuscarJuego.swift */; };
+		FBABE019282095DC005A298A /* Amigos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABE018282095DC005A298A /* Amigos.swift */; };
+		FBABE01B28209710005A298A /* ProxJuegosDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABE01A28209710005A298A /* ProxJuegosDetalle.swift */; };
+		FBABE01D2820A621005A298A /* RegistroUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABE01C2820A621005A298A /* RegistroUser.swift */; };
+		FBF41F762819FEC7002AF27D /* Final_SastreOkamotoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF41F752819FEC7002AF27D /* Final_SastreOkamotoApp.swift */; };
+		FBF41F7A2819FEC9002AF27D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF41F792819FEC9002AF27D /* Assets.xcassets */; };
+		FBF41F7D2819FEC9002AF27D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF41F7C2819FEC9002AF27D /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB3DFEAD2821E791009953EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB3DFEAF2821E7BB009953EF /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Login.swift; path = "../../../Downloads/Quick-Game-main/proyecto_final_dm/Login.swift"; sourceTree = "<group>"; };
+		FB3DFEB12821E7E3009953EF /* MenuPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPrincipal.swift; sourceTree = "<group>"; };
+		FB3DFEB42821E8BF009953EF /* CustomSecureField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomSecureField.swift; path = "../../../../Downloads/Quick-Game-main/proyecto_final_dm/Components/CustomSecureField.swift"; sourceTree = "<group>"; };
+		FB3DFEB52821E8BF009953EF /* CustomTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTextfield.swift; path = "../../../../Downloads/Quick-Game-main/proyecto_final_dm/Components/CustomTextfield.swift"; sourceTree = "<group>"; };
+		FBABE010282091A2005A298A /* ProxJuegos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxJuegos.swift; sourceTree = "<group>"; };
+		FBABE012282094E0005A298A /* CrearJuego.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrearJuego.swift; sourceTree = "<group>"; };
+		FBABE01428209507005A298A /* BuscarJuego.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarJuego.swift; sourceTree = "<group>"; };
+		FBABE018282095DC005A298A /* Amigos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amigos.swift; sourceTree = "<group>"; };
+		FBABE01A28209710005A298A /* ProxJuegosDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxJuegosDetalle.swift; sourceTree = "<group>"; };
+		FBABE01C2820A621005A298A /* RegistroUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroUser.swift; sourceTree = "<group>"; };
+		FBF41F722819FEC7002AF27D /* Final_SastreOkamoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Final_SastreOkamoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBF41F752819FEC7002AF27D /* Final_SastreOkamotoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_SastreOkamotoApp.swift; sourceTree = "<group>"; };
+		FBF41F792819FEC9002AF27D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBF41F7C2819FEC9002AF27D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBF41F6F2819FEC7002AF27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB3DFEB32821E8AC009953EF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FB3DFEB42821E8BF009953EF /* CustomSecureField.swift */,
+				FB3DFEB52821E8BF009953EF /* CustomTextfield.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FBF41F692819FEC7002AF27D = {
+			isa = PBXGroup;
+			children = (
+				FBF41F742819FEC7002AF27D /* Final_SastreOkamoto */,
+				FBF41F732819FEC7002AF27D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBF41F732819FEC7002AF27D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBF41F722819FEC7002AF27D /* Final_SastreOkamoto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBF41F742819FEC7002AF27D /* Final_SastreOkamoto */ = {
+			isa = PBXGroup;
+			children = (
+				FB3DFEB32821E8AC009953EF /* Components */,
+				FB3DFEAD2821E791009953EF /* ContentView.swift */,
+				FBF41F752819FEC7002AF27D /* Final_SastreOkamotoApp.swift */,
+				FBABE018282095DC005A298A /* Amigos.swift */,
+				FBABE01428209507005A298A /* BuscarJuego.swift */,
+				FBABE010282091A2005A298A /* ProxJuegos.swift */,
+				FBABE01A28209710005A298A /* ProxJuegosDetalle.swift */,
+				FBABE012282094E0005A298A /* CrearJuego.swift */,
+				FBABE01C2820A621005A298A /* RegistroUser.swift */,
+				FB3DFEAF2821E7BB009953EF /* Login.swift */,
+				FB3DFEB12821E7E3009953EF /* MenuPrincipal.swift */,
+				FBF41F792819FEC9002AF27D /* Assets.xcassets */,
+				FBF41F7B2819FEC9002AF27D /* Preview Content */,
+			);
+			path = Final_SastreOkamoto;
+			sourceTree = "<group>";
+		};
+		FBF41F7B2819FEC9002AF27D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FBF41F7C2819FEC9002AF27D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBF41F712819FEC7002AF27D /* Final_SastreOkamoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBF41F802819FEC9002AF27D /* Build configuration list for PBXNativeTarget "Final_SastreOkamoto" */;
+			buildPhases = (
+				FBF41F6E2819FEC7002AF27D /* Sources */,
+				FBF41F6F2819FEC7002AF27D /* Frameworks */,
+				FBF41F702819FEC7002AF27D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Final_SastreOkamoto;
+			productName = Final_SastreOkamoto;
+			productReference = FBF41F722819FEC7002AF27D /* Final_SastreOkamoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBF41F6A2819FEC7002AF27D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FBF41F712819FEC7002AF27D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FBF41F6D2819FEC7002AF27D /* Build configuration list for PBXProject "Final_SastreOkamoto" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBF41F692819FEC7002AF27D;
+			productRefGroup = FBF41F732819FEC7002AF27D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBF41F712819FEC7002AF27D /* Final_SastreOkamoto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBF41F702819FEC7002AF27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF41F7D2819FEC9002AF27D /* Preview Assets.xcassets in Resources */,
+				FBF41F7A2819FEC9002AF27D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBF41F6E2819FEC7002AF27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF41F762819FEC7002AF27D /* Final_SastreOkamotoApp.swift in Sources */,
+				FBABE013282094E0005A298A /* CrearJuego.swift in Sources */,
+				FB3DFEAE2821E791009953EF /* ContentView.swift in Sources */,
+				FBABE01D2820A621005A298A /* RegistroUser.swift in Sources */,
+				FBABE011282091A2005A298A /* ProxJuegos.swift in Sources */,
+				FB3DFEB22821E7E3009953EF /* MenuPrincipal.swift in Sources */,
+				FBABE019282095DC005A298A /* Amigos.swift in Sources */,
+				FB3DFEB02821E7BB009953EF /* Login.swift in Sources */,
+				FB3DFEB72821E8C0009953EF /* CustomTextfield.swift in Sources */,
+				FB3DFEB62821E8C0009953EF /* CustomSecureField.swift in Sources */,
+				FBABE01528209507005A298A /* BuscarJuego.swift in Sources */,
+				FBABE01B28209710005A298A /* ProxJuegosDetalle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FBF41F7E2819FEC9002AF27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBF41F7F2819FEC9002AF27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBF41F812819FEC9002AF27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Final_SastreOkamoto/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamo.Final-SastreOkamoto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBF41F822819FEC9002AF27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Final_SastreOkamoto/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamo.Final-SastreOkamoto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBF41F6D2819FEC7002AF27D /* Build configuration list for PBXProject "Final_SastreOkamoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF41F7E2819FEC9002AF27D /* Debug */,
+				FBF41F7F2819FEC9002AF27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBF41F802819FEC9002AF27D /* Build configuration list for PBXNativeTarget "Final_SastreOkamoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF41F812819FEC9002AF27D /* Debug */,
+				FBF41F822819FEC9002AF27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBF41F6A2819FEC7002AF27D /* Project object */;
+}
