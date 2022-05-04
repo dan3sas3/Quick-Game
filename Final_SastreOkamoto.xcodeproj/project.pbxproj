@@ -10,14 +10,14 @@
 		FB3DFEAE2821E791009953EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DFEAD2821E791009953EF /* ContentView.swift */; };
 		FB3DFEB02821E7BB009953EF /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DFEAF2821E7BB009953EF /* Login.swift */; };
 		FB3DFEB22821E7E3009953EF /* MenuPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DFEB12821E7E3009953EF /* MenuPrincipal.swift */; };
-		FB3DFEB62821E8C0009953EF /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DFEB42821E8BF009953EF /* CustomSecureField.swift */; };
-		FB3DFEB72821E8C0009953EF /* CustomTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DFEB52821E8BF009953EF /* CustomTextfield.swift */; };
 		FBABE011282091A2005A298A /* ProxJuegos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABE010282091A2005A298A /* ProxJuegos.swift */; };
 		FBABE013282094E0005A298A /* CrearJuego.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABE012282094E0005A298A /* CrearJuego.swift */; };
 		FBABE01528209507005A298A /* BuscarJuego.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABE01428209507005A298A /* BuscarJuego.swift */; };
 		FBABE019282095DC005A298A /* Amigos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABE018282095DC005A298A /* Amigos.swift */; };
 		FBABE01B28209710005A298A /* ProxJuegosDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABE01A28209710005A298A /* ProxJuegosDetalle.swift */; };
 		FBABE01D2820A621005A298A /* RegistroUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABE01C2820A621005A298A /* RegistroUser.swift */; };
+		FBB3298C282337C200C9B7B3 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB3298B282337C200C9B7B3 /* CustomSecureField.swift */; };
+		FBB3298E282337EC00C9B7B3 /* CustomTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB3298D282337EC00C9B7B3 /* CustomTextfield.swift */; };
 		FBF41F762819FEC7002AF27D /* Final_SastreOkamotoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF41F752819FEC7002AF27D /* Final_SastreOkamotoApp.swift */; };
 		FBF41F7A2819FEC9002AF27D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF41F792819FEC9002AF27D /* Assets.xcassets */; };
 		FBF41F7D2819FEC9002AF27D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF41F7C2819FEC9002AF27D /* Preview Assets.xcassets */; };
@@ -27,14 +27,14 @@
 		FB3DFEAD2821E791009953EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB3DFEAF2821E7BB009953EF /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Login.swift; path = "../../../Downloads/Quick-Game-main/proyecto_final_dm/Login.swift"; sourceTree = "<group>"; };
 		FB3DFEB12821E7E3009953EF /* MenuPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPrincipal.swift; sourceTree = "<group>"; };
-		FB3DFEB42821E8BF009953EF /* CustomSecureField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomSecureField.swift; path = "../../../../Downloads/Quick-Game-main/proyecto_final_dm/Components/CustomSecureField.swift"; sourceTree = "<group>"; };
-		FB3DFEB52821E8BF009953EF /* CustomTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTextfield.swift; path = "../../../../Downloads/Quick-Game-main/proyecto_final_dm/Components/CustomTextfield.swift"; sourceTree = "<group>"; };
 		FBABE010282091A2005A298A /* ProxJuegos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxJuegos.swift; sourceTree = "<group>"; };
 		FBABE012282094E0005A298A /* CrearJuego.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrearJuego.swift; sourceTree = "<group>"; };
 		FBABE01428209507005A298A /* BuscarJuego.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarJuego.swift; sourceTree = "<group>"; };
 		FBABE018282095DC005A298A /* Amigos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amigos.swift; sourceTree = "<group>"; };
 		FBABE01A28209710005A298A /* ProxJuegosDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxJuegosDetalle.swift; sourceTree = "<group>"; };
 		FBABE01C2820A621005A298A /* RegistroUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroUser.swift; sourceTree = "<group>"; };
+		FBB3298B282337C200C9B7B3 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		FBB3298D282337EC00C9B7B3 /* CustomTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextfield.swift; sourceTree = "<group>"; };
 		FBF41F722819FEC7002AF27D /* Final_SastreOkamoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Final_SastreOkamoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF41F752819FEC7002AF27D /* Final_SastreOkamotoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_SastreOkamotoApp.swift; sourceTree = "<group>"; };
 		FBF41F792819FEC9002AF27D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,11 +52,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FB3DFEB32821E8AC009953EF /* Components */ = {
+		FBB3298A2823378100C9B7B3 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				FB3DFEB42821E8BF009953EF /* CustomSecureField.swift */,
-				FB3DFEB52821E8BF009953EF /* CustomTextfield.swift */,
+				FBB3298B282337C200C9B7B3 /* CustomSecureField.swift */,
+				FBB3298D282337EC00C9B7B3 /* CustomTextfield.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -80,7 +80,7 @@
 		FBF41F742819FEC7002AF27D /* Final_SastreOkamoto */ = {
 			isa = PBXGroup;
 			children = (
-				FB3DFEB32821E8AC009953EF /* Components */,
+				FBB3298A2823378100C9B7B3 /* Components */,
 				FB3DFEAD2821E791009953EF /* ContentView.swift */,
 				FBF41F752819FEC7002AF27D /* Final_SastreOkamotoApp.swift */,
 				FBABE018282095DC005A298A /* Amigos.swift */,
@@ -183,8 +183,8 @@
 				FB3DFEB22821E7E3009953EF /* MenuPrincipal.swift in Sources */,
 				FBABE019282095DC005A298A /* Amigos.swift in Sources */,
 				FB3DFEB02821E7BB009953EF /* Login.swift in Sources */,
-				FB3DFEB72821E8C0009953EF /* CustomTextfield.swift in Sources */,
-				FB3DFEB62821E8C0009953EF /* CustomSecureField.swift in Sources */,
+				FBB3298E282337EC00C9B7B3 /* CustomTextfield.swift in Sources */,
+				FBB3298C282337C200C9B7B3 /* CustomSecureField.swift in Sources */,
 				FBABE01528209507005A298A /* BuscarJuego.swift in Sources */,
 				FBABE01B28209710005A298A /* ProxJuegosDetalle.swift in Sources */,
 			);
