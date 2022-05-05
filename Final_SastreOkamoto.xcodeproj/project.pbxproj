@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB0549632823441400F517A5 /* UserDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0549622823441400F517A5 /* UserDetalle.swift */; };
 		FB3DFEAE2821E791009953EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DFEAD2821E791009953EF /* ContentView.swift */; };
 		FB3DFEB02821E7BB009953EF /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DFEAF2821E7BB009953EF /* Login.swift */; };
 		FB3DFEB22821E7E3009953EF /* MenuPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DFEB12821E7E3009953EF /* MenuPrincipal.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB0549622823441400F517A5 /* UserDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetalle.swift; sourceTree = "<group>"; };
 		FB3DFEAD2821E791009953EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB3DFEAF2821E7BB009953EF /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Login.swift; path = "../../../Downloads/Quick-Game-main/proyecto_final_dm/Login.swift"; sourceTree = "<group>"; };
 		FB3DFEB12821E7E3009953EF /* MenuPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPrincipal.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				FBABE01A28209710005A298A /* ProxJuegosDetalle.swift */,
 				FBABE012282094E0005A298A /* CrearJuego.swift */,
 				FBABE01C2820A621005A298A /* RegistroUser.swift */,
+				FB0549622823441400F517A5 /* UserDetalle.swift */,
 				FB3DFEAF2821E7BB009953EF /* Login.swift */,
 				FB3DFEB12821E7E3009953EF /* MenuPrincipal.swift */,
 				FBF41F792819FEC9002AF27D /* Assets.xcassets */,
@@ -184,6 +187,7 @@
 				FBABE019282095DC005A298A /* Amigos.swift in Sources */,
 				FB3DFEB02821E7BB009953EF /* Login.swift in Sources */,
 				FBB3298E282337EC00C9B7B3 /* CustomTextfield.swift in Sources */,
+				FB0549632823441400F517A5 /* UserDetalle.swift in Sources */,
 				FBB3298C282337C200C9B7B3 /* CustomSecureField.swift in Sources */,
 				FBABE01528209507005A298A /* BuscarJuego.swift in Sources */,
 				FBABE01B28209710005A298A /* ProxJuegosDetalle.swift in Sources */,

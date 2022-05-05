@@ -8,33 +8,70 @@
 import SwiftUI
 //prueba
 struct RegistroUser: View {
-  @State private var firstname = ""
-  @State private var lastname = ""
-  @State private var age = 20
 
-  private let oldPasswordToConfirmAgainst = "12345"
-  @State private var oldPassword = ""
-  @State private var newPassword = ""
-  @State private var confirmedPassword = ""
+  //private let oldPasswordToConfirmAgainst = "12345"
+  @State private var nombre = ""
+  @State private var apellidos = ""
+  @State private var edad = 20
+  @State private var correo = ""
+  @State private var posicion = "Posición preferida"
+  @State private var bio = ""
+  @State private var password = ""
+  @State private var confirm_password = ""
+  @State private var style = 0
 
   @State private var keyboardOffset: CGFloat = 0
 
   var body: some View {
       VStack {
         Form {
-          Section(header: Text("User Details")) {
-            TextField("Firstname", text: $firstname)
-            TextField("Lastname",text: $lastname)
+          Section(header: Text("Información básica")) {
+            TextField("Nombre", text: $nombre)
+            TextField("Apellidos",text: $apellidos)
+            TextField("Correo electrónico", text: $correo)
 
-            Stepper(value: $age, in: 18...100, label: {
-              Text("Current age: \(self.age)")
+            Stepper(value: $edad, in: 18...100, label: {
+              Text("Current age: \(self.edad)")
             })
 
-            if self.isUserInformationValid() {
+            Menu {
+              Button {
+                  posicion = "Portero"
+              } label: {
+                  Text("Portero")
+              }
+              Button {
+                  posicion = "Defensa"
+              } label: {
+                  Text("Defensa")
+              }
+              Button {
+                  posicion = "Medio"
+              } label: {
+                  Text("Medio")
+              }
+              Button {
+                  posicion = "Delantero"
+              } label: {
+                  Text("Delantero")
+              }
+            } label: {
+                 Text("\(posicion)")
+                 Image(systemName: "heart.fill")
+            }
+          }
+
+          Section(header: Text("Contraseña")) {
+            SecureField("Contraseña", text: $password)
+            SecureField("Verificar contrasela",text: $confirm_password)
+          }
+
+          if (self.isUserInformationValid()) && (self.isPasswordValid()) {
+            NavigationLink(destination: UserDetalle()){
               Button(action: {
-                print("Updated profile")
+                  print("Registrarme")
               }, label: {
-                Text("Update Profile")
+                Text("Registrarme")
               })
             }
           }
@@ -69,11 +106,11 @@ struct RegistroUser: View {
   }
 
   private func isUserInformationValid() -> Bool {
-    if firstname.isEmpty {
+    if nombre.isEmpty {
         return false
     }
 
-    if lastname.isEmpty {
+    if apellidos.isEmpty {
         return false
     }
 
@@ -81,11 +118,8 @@ struct RegistroUser: View {
   }
 
   private func isPasswordValid() -> Bool {
-    if oldPassword != oldPasswordToConfirmAgainst {
-        return false
-    }
 
-    if !newPassword.isEmpty && newPassword == confirmedPassword {
+    if !password.isEmpty && password == confirm_password {
         return true
     }
 
