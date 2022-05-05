@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		FB3DFEAE2821E791009953EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DFEAD2821E791009953EF /* ContentView.swift */; };
-		FB3DFEB02821E7BB009953EF /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DFEAF2821E7BB009953EF /* Login.swift */; };
 		FB3DFEB22821E7E3009953EF /* MenuPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DFEB12821E7E3009953EF /* MenuPrincipal.swift */; };
+		FB4EDDDB282346BA0056109B /* Juegos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EDDDA282346BA0056109B /* Juegos.swift */; };
+		FB4EDDDD282348A70056109B /* GameCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4EDDDC282348A70056109B /* GameCard.swift */; };
+		FB5DDD3328233CE9008F5D8A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5DDD3228233CE9008F5D8A /* Login.swift */; };
 		FBABE011282091A2005A298A /* ProxJuegos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABE010282091A2005A298A /* ProxJuegos.swift */; };
 		FBABE013282094E0005A298A /* CrearJuego.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABE012282094E0005A298A /* CrearJuego.swift */; };
 		FBABE01528209507005A298A /* BuscarJuego.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABE01428209507005A298A /* BuscarJuego.swift */; };
@@ -25,8 +27,10 @@
 
 /* Begin PBXFileReference section */
 		FB3DFEAD2821E791009953EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FB3DFEAF2821E7BB009953EF /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Login.swift; path = "../../../Downloads/Quick-Game-main/proyecto_final_dm/Login.swift"; sourceTree = "<group>"; };
 		FB3DFEB12821E7E3009953EF /* MenuPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPrincipal.swift; sourceTree = "<group>"; };
+		FB4EDDDA282346BA0056109B /* Juegos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Juegos.swift; sourceTree = "<group>"; };
+		FB4EDDDC282348A70056109B /* GameCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCard.swift; sourceTree = "<group>"; };
+		FB5DDD3228233CE9008F5D8A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		FBABE010282091A2005A298A /* ProxJuegos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxJuegos.swift; sourceTree = "<group>"; };
 		FBABE012282094E0005A298A /* CrearJuego.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrearJuego.swift; sourceTree = "<group>"; };
 		FBABE01428209507005A298A /* BuscarJuego.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarJuego.swift; sourceTree = "<group>"; };
@@ -52,11 +56,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB4EDDD9282346740056109B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB4EDDDA282346BA0056109B /* Juegos.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FBB3298A2823378100C9B7B3 /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				FBB3298B282337C200C9B7B3 /* CustomSecureField.swift */,
 				FBB3298D282337EC00C9B7B3 /* CustomTextfield.swift */,
+				FB4EDDDC282348A70056109B /* GameCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -80,6 +93,7 @@
 		FBF41F742819FEC7002AF27D /* Final_SastreOkamoto */ = {
 			isa = PBXGroup;
 			children = (
+				FB4EDDD9282346740056109B /* Models */,
 				FBB3298A2823378100C9B7B3 /* Components */,
 				FB3DFEAD2821E791009953EF /* ContentView.swift */,
 				FBF41F752819FEC7002AF27D /* Final_SastreOkamotoApp.swift */,
@@ -89,8 +103,8 @@
 				FBABE01A28209710005A298A /* ProxJuegosDetalle.swift */,
 				FBABE012282094E0005A298A /* CrearJuego.swift */,
 				FBABE01C2820A621005A298A /* RegistroUser.swift */,
-				FB3DFEAF2821E7BB009953EF /* Login.swift */,
 				FB3DFEB12821E7E3009953EF /* MenuPrincipal.swift */,
+				FB5DDD3228233CE9008F5D8A /* Login.swift */,
 				FBF41F792819FEC9002AF27D /* Assets.xcassets */,
 				FBF41F7B2819FEC9002AF27D /* Preview Content */,
 			);
@@ -175,14 +189,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB4EDDDB282346BA0056109B /* Juegos.swift in Sources */,
 				FBF41F762819FEC7002AF27D /* Final_SastreOkamotoApp.swift in Sources */,
 				FBABE013282094E0005A298A /* CrearJuego.swift in Sources */,
 				FB3DFEAE2821E791009953EF /* ContentView.swift in Sources */,
+				FB5DDD3328233CE9008F5D8A /* Login.swift in Sources */,
+				FB4EDDDD282348A70056109B /* GameCard.swift in Sources */,
 				FBABE01D2820A621005A298A /* RegistroUser.swift in Sources */,
 				FBABE011282091A2005A298A /* ProxJuegos.swift in Sources */,
 				FB3DFEB22821E7E3009953EF /* MenuPrincipal.swift in Sources */,
 				FBABE019282095DC005A298A /* Amigos.swift in Sources */,
-				FB3DFEB02821E7BB009953EF /* Login.swift in Sources */,
 				FBB3298E282337EC00C9B7B3 /* CustomTextfield.swift in Sources */,
 				FBB3298C282337C200C9B7B3 /* CustomSecureField.swift in Sources */,
 				FBABE01528209507005A298A /* BuscarJuego.swift in Sources */,
