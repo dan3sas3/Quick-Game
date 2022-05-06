@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
+  @StateObject private var vm = LocationsViewModel()
+  var body: some View {
       VStack{
-        Login()
+        Login().environmentObject(vm)
       }
     }
 }
