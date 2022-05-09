@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		FB0549632823441400F517A5 /* UserDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0549622823441400F517A5 /* UserDetalle.swift */; };
+		FB3092ED28248B4F007BEC95 /* ViewModels in Resources */ = {isa = PBXBuildFile; fileRef = FB3092EA28248B4F007BEC95 /* ViewModels */; };
+		FB3092EE28248B4F007BEC95 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = FB3092EB28248B4F007BEC95 /* Models */; };
+		FB3092EF28248B4F007BEC95 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = FB3092EC28248B4F007BEC95 /* Views */; };
+		FB3092F128248E6B007BEC95 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3092F028248E6B007BEC95 /* LocationsViewModel.swift */; };
+		FB3092F328248EDA007BEC95 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3092F228248EDA007BEC95 /* Location.swift */; };
+		FB3092F528249148007BEC95 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3092F428249148007BEC95 /* LocationsDataService.swift */; };
+		FB3092F7282493EF007BEC95 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3092F6282493EF007BEC95 /* LocationDetailView.swift */; };
+		FB3092F928249417007BEC95 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3092F828249417007BEC95 /* LocationMapAnnotationView.swift */; };
+		FB3092FB28249913007BEC95 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3092FA28249913007BEC95 /* LocationsView.swift */; };
+		FB3092FD28249950007BEC95 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3092FC28249950007BEC95 /* LocationPreviewView.swift */; };
+		FB3092FF28249AAB007BEC95 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3092FE28249AAB007BEC95 /* LocationsListView.swift */; };
 		FB3DFEAE2821E791009953EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DFEAD2821E791009953EF /* ContentView.swift */; };
 		FB3DFEB02821E7BB009953EF /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DFEAF2821E7BB009953EF /* Login.swift */; };
 		FB3DFEB22821E7E3009953EF /* MenuPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3DFEB12821E7E3009953EF /* MenuPrincipal.swift */; };
@@ -26,6 +37,17 @@
 
 /* Begin PBXFileReference section */
 		FB0549622823441400F517A5 /* UserDetalle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetalle.swift; sourceTree = "<group>"; };
+		FB3092EA28248B4F007BEC95 /* ViewModels */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ViewModels; path = "../../../Downloads/SwiftfUI-Map-App-MVVM-main/SwiftfulMapApp/ViewModels"; sourceTree = "<group>"; };
+		FB3092EB28248B4F007BEC95 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Models; path = "../../../Downloads/SwiftfUI-Map-App-MVVM-main/SwiftfulMapApp/Models"; sourceTree = "<group>"; };
+		FB3092EC28248B4F007BEC95 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Views; path = "../../../Downloads/SwiftfUI-Map-App-MVVM-main/SwiftfulMapApp/Views"; sourceTree = "<group>"; };
+		FB3092F028248E6B007BEC95 /* LocationsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationsViewModel.swift; path = "../../../Downloads/SwiftfUI-Map-App-MVVM-main/SwiftfulMapApp/ViewModels/LocationsViewModel.swift"; sourceTree = "<group>"; };
+		FB3092F228248EDA007BEC95 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Location.swift; path = "../../../Downloads/SwiftfUI-Map-App-MVVM-main/SwiftfulMapApp/Models/Location.swift"; sourceTree = "<group>"; };
+		FB3092F428249148007BEC95 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationsDataService.swift; path = "../../../Downloads/SwiftfUI-Map-App-MVVM-main/SwiftfulMapApp/DataServices/LocationsDataService.swift"; sourceTree = "<group>"; };
+		FB3092F6282493EF007BEC95 /* LocationDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationDetailView.swift; path = "../../../Downloads/SwiftfUI-Map-App-MVVM-main/SwiftfulMapApp/Views/LocationDetailView.swift"; sourceTree = "<group>"; };
+		FB3092F828249417007BEC95 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationMapAnnotationView.swift; path = "../../../Downloads/SwiftfUI-Map-App-MVVM-main/SwiftfulMapApp/Views/LocationMapAnnotationView.swift"; sourceTree = "<group>"; };
+		FB3092FA28249913007BEC95 /* LocationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationsView.swift; path = "../../../Downloads/SwiftfUI-Map-App-MVVM-main/SwiftfulMapApp/Views/LocationsView.swift"; sourceTree = "<group>"; };
+		FB3092FC28249950007BEC95 /* LocationPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationPreviewView.swift; path = "../../../Downloads/SwiftfUI-Map-App-MVVM-main/SwiftfulMapApp/Views/LocationPreviewView.swift"; sourceTree = "<group>"; };
+		FB3092FE28249AAB007BEC95 /* LocationsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationsListView.swift; path = "../../../Downloads/SwiftfUI-Map-App-MVVM-main/SwiftfulMapApp/Views/LocationsListView.swift"; sourceTree = "<group>"; };
 		FB3DFEAD2821E791009953EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB3DFEAF2821E7BB009953EF /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Login.swift; path = "../../../Downloads/Quick-Game-main/proyecto_final_dm/Login.swift"; sourceTree = "<group>"; };
 		FB3DFEB12821E7E3009953EF /* MenuPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPrincipal.swift; sourceTree = "<group>"; };
@@ -82,12 +104,23 @@
 		FBF41F742819FEC7002AF27D /* Final_SastreOkamoto */ = {
 			isa = PBXGroup;
 			children = (
+				FB3092EB28248B4F007BEC95 /* Models */,
+				FB3092EA28248B4F007BEC95 /* ViewModels */,
+				FB3092EC28248B4F007BEC95 /* Views */,
 				FBB3298A2823378100C9B7B3 /* Components */,
 				FB3DFEAD2821E791009953EF /* ContentView.swift */,
 				FBF41F752819FEC7002AF27D /* Final_SastreOkamotoApp.swift */,
 				FBABE018282095DC005A298A /* Amigos.swift */,
 				FBABE01428209507005A298A /* BuscarJuego.swift */,
 				FBABE010282091A2005A298A /* ProxJuegos.swift */,
+				FB3092F028248E6B007BEC95 /* LocationsViewModel.swift */,
+				FB3092FA28249913007BEC95 /* LocationsView.swift */,
+				FB3092FC28249950007BEC95 /* LocationPreviewView.swift */,
+				FB3092FE28249AAB007BEC95 /* LocationsListView.swift */,
+				FB3092F228248EDA007BEC95 /* Location.swift */,
+				FB3092F6282493EF007BEC95 /* LocationDetailView.swift */,
+				FB3092F828249417007BEC95 /* LocationMapAnnotationView.swift */,
+				FB3092F428249148007BEC95 /* LocationsDataService.swift */,
 				FBABE01A28209710005A298A /* ProxJuegosDetalle.swift */,
 				FBABE012282094E0005A298A /* CrearJuego.swift */,
 				FBABE01C2820A621005A298A /* RegistroUser.swift */,
@@ -168,6 +201,9 @@
 			files = (
 				FBF41F7D2819FEC9002AF27D /* Preview Assets.xcassets in Resources */,
 				FBF41F7A2819FEC9002AF27D /* Assets.xcassets in Resources */,
+				FB3092EE28248B4F007BEC95 /* Models in Resources */,
+				FB3092ED28248B4F007BEC95 /* ViewModels in Resources */,
+				FB3092EF28248B4F007BEC95 /* Views in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,18 +214,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB3092F7282493EF007BEC95 /* LocationDetailView.swift in Sources */,
+				FB3092F928249417007BEC95 /* LocationMapAnnotationView.swift in Sources */,
 				FBF41F762819FEC7002AF27D /* Final_SastreOkamotoApp.swift in Sources */,
 				FBABE013282094E0005A298A /* CrearJuego.swift in Sources */,
 				FB3DFEAE2821E791009953EF /* ContentView.swift in Sources */,
+				FB3092F128248E6B007BEC95 /* LocationsViewModel.swift in Sources */,
 				FBABE01D2820A621005A298A /* RegistroUser.swift in Sources */,
 				FBABE011282091A2005A298A /* ProxJuegos.swift in Sources */,
 				FB3DFEB22821E7E3009953EF /* MenuPrincipal.swift in Sources */,
+				FB3092F328248EDA007BEC95 /* Location.swift in Sources */,
 				FBABE019282095DC005A298A /* Amigos.swift in Sources */,
+				FB3092FB28249913007BEC95 /* LocationsView.swift in Sources */,
 				FB3DFEB02821E7BB009953EF /* Login.swift in Sources */,
 				FBB3298E282337EC00C9B7B3 /* CustomTextfield.swift in Sources */,
 				FB0549632823441400F517A5 /* UserDetalle.swift in Sources */,
+				FB3092FF28249AAB007BEC95 /* LocationsListView.swift in Sources */,
+				FB3092F528249148007BEC95 /* LocationsDataService.swift in Sources */,
 				FBB3298C282337C200C9B7B3 /* CustomSecureField.swift in Sources */,
 				FBABE01528209507005A298A /* BuscarJuego.swift in Sources */,
+				FB3092FD28249950007BEC95 /* LocationPreviewView.swift in Sources */,
 				FBABE01B28209710005A298A /* ProxJuegosDetalle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

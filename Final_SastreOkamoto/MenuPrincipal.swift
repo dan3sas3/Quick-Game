@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct MenuPrincipal: View {
+  @EnvironmentObject private var vm: LocationsViewModel
+  let location: Location
+
   var body: some View {
     NavigationView{
       List{
@@ -29,11 +32,20 @@ struct MenuPrincipal: View {
       }.navigationTitle("¡Bienvenido!")
     }.navigationBarHidden(true)
     .navigationBarBackButtonHidden(true)
+
+    Button {
+        vm.sheetLocation = location
+    } label: {
+        Text("Learn more")
+            .font(.headline)
+            .frame(width: 125, height: 35)
+    }
+    .buttonStyle(.borderedProminent)
   }
 }
 
-struct MenuPrincipal_Previews: PreviewProvider {
-    static var previews: some View {
-        MenuPrincipal()
-    }
-}
+//struct MenuPrincipal_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MenuPrincipal()
+//    }
+//}
