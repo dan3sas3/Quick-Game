@@ -29,8 +29,8 @@ struct CrearJuego: View {
             Stepper(value: $jugadoresMin, in: 3...25, label: {
               Text("Jugadores Mínimos: \(self.jugadoresMin)")
             })
-            Stepper(value: $jugadoresMin, in: 3...25, label: {
-              Text("Jugadores Mínimos: \(self.jugadoresMin)")
+            Stepper(value: $jugadoresMax, in: 3...25, label: {
+              Text("Jugadores Máximos: \(self.jugadoresMax)")
             })
 
 
