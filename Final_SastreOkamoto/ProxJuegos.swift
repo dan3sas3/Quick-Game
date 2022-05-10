@@ -10,8 +10,9 @@ import SwiftUI
 struct ProxJuegos: View {
     var body: some View {
       List{
-        VStack{
-          NavigationLink(destination: ProxJuegosDetalle()){
+        NavigationLink(destination: ProxJuegosDetalle()) {
+          VStack{
+            Text("Estadio Azteca")
             AsyncImage(url:URL(string: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Estadio_Azteca_cancha_vista_norte.jpg/1200px-Estadio_Azteca_cancha_vista_norte.jpg")){image in
                 image
                     .resizable()
@@ -21,19 +22,11 @@ struct ProxJuegos: View {
                 ProgressView()
             }
           }
+        }
 
-          NavigationLink(destination: ProxJuegosDetalle()){
-            AsyncImage(url:URL(string: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Estadio_Azteca_cancha_vista_norte.jpg/1200px-Estadio_Azteca_cancha_vista_norte.jpg")){image in
-                image
-                    .resizable()
-                    .scaledToFill()
-                    .frame(width: 200, height: 200)
-            } placeholder: {
-                ProgressView()
-            }
-          }
-
-          NavigationLink(destination: ProxJuegosDetalle()){
+        NavigationLink(destination: ProxJuegosDetalle()) {
+          VStack{
+            Text("Estadio Azteca")
             AsyncImage(url:URL(string: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Estadio_Azteca_cancha_vista_norte.jpg/1200px-Estadio_Azteca_cancha_vista_norte.jpg")){image in
                 image
                     .resizable()
