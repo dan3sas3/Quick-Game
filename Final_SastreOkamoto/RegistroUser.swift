@@ -8,6 +8,7 @@
 import SwiftUI
 //prueba
 struct RegistroUser: View {
+  @EnvironmentObject var myUserViewModel: UserViewModel
 
   //private let oldPasswordToConfirmAgainst = "12345"
   @State private var nombre = ""
@@ -55,7 +56,7 @@ struct RegistroUser: View {
               } label: {
                   Text("Delantero")
               }
-            } label: {
+            }label: {
                  Text("\(posicion)")
                  Image(systemName: "heart.fill")
             }
@@ -67,13 +68,17 @@ struct RegistroUser: View {
           }
 
           if (self.isUserInformationValid()) && (self.isPasswordValid()) {
-            NavigationLink(destination: UserDetalle()){
-              Button(action: {
-                  print("Registrarme")
-              }, label: {
-                Text("Registrarme")
-              })
-            }
+            Button(action: {
+              var params : [String:Any]  = ["nombres":  self.nombre , "apellidos": self.apellidos, "email": self.correo, "posicion_favorita": self.posicion, "password": self.password]
+                print("los parametros son \(params)")
+              myUserViewModel.creaFruits(parameters: params)
+              myUserViewModel.getUsuarios()
+
+              
+                    },
+                   label:{
+                Text("Guardar")
+            })
           }
 
       }.navigationBarTitle(Text("Crea tu perfil"))
@@ -104,6 +109,7 @@ struct RegistroUser: View {
         }
       }.background(Color(UIColor.systemGray6))
   }
+  
 
   private func isUserInformationValid() -> Bool {
     if nombre.isEmpty {
