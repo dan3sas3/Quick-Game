@@ -71,7 +71,7 @@ struct RegistroUser: View {
             Button(action: {
               var params : [String:Any]  = ["nombres":  self.nombre , "apellidos": self.apellidos, "email": self.correo, "posicion_favorita": self.posicion, "password": self.password]
                 print("los parametros son \(params)")
-              myUserViewModel.creaFruits(parameters: params)
+              myUserViewModel.registrarUsuario(parameters: params)
               myUserViewModel.getUsuarios()
 
               

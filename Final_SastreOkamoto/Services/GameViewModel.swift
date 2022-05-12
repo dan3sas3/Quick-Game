@@ -1,20 +1,20 @@
 //
-//  VistaModelo.swift
-//  crud_api_feb_2022
+//  GameViewModel.swift
+//  Final_SastreOkamoto
 //
-//  Created by Virgilio De la Cruz Jardón on 19/02/22.
+//  Created by alumno on 12/05/22.
 //
 
 import Foundation
 
-class UserViewModel : ObservableObject
+class GameViewModel : ObservableObject
 {
-    @Published var usuarios = [Usuario]()
-    @Published var regreso = UserDataModel(error: true, message: "", data: [Usuario(id: 0, nombres: "", apellidos: "", email: "", posicion_favorita: "", password: "")])
+    @Published var juegos = [Juego]()
+    @Published var regreso = JuegoDataModel(error: true, message: "", data: [Juego(id_juego: 0, id_cancha: 0, jugadores_min: 0, jugadores_max: 0, timestamp: "")])
     let prefixUrl = "https://sucursales-sastre.glitch.me/"
-    func getUsuarios()
+    func getJuegos()
     {
-        guard let url = URL(string: "\(prefixUrl)/mostrarusuarios") else
+        guard let url = URL(string: "\(prefixUrl)/mostrarjuegos") else
         {
             print("error url")
             return
@@ -32,9 +32,9 @@ class UserViewModel : ObservableObject
             do
             {
                 if let d = data {
-                    let result = try JSONDecoder().decode(UserDataModel.self, from: d)
+                    let result = try JSONDecoder().decode(JuegoDataModel.self, from: d)
                     DispatchQueue.main.async {
-                        self.usuarios = result.data
+                        self.juegos = result.data
                     } //fin async
                 } // fin data
                 else
@@ -51,7 +51,7 @@ class UserViewModel : ObservableObject
 
         }.resume() // fin dataTask
     }
-    func registrarUsuario(parameters: [String: Any]) // parametrers es un diccionario
+    func creaJuego(parameters: [String: Any]) // parametrers es un diccionario
     {
         guard let url = URL(string: "\(prefixUrl)/registrar") else
         {
@@ -78,7 +78,7 @@ class UserViewModel : ObservableObject
             do
             {
                 if let d = data {
-                    let result = try JSONDecoder().decode(UserDataModel.self, from: d)
+                    let result = try JSONDecoder().decode(JuegoDataModel.self, from: d)
                     print("la data es \(result)")
                     DispatchQueue.main.async {
                         print("la data es \(result)")
