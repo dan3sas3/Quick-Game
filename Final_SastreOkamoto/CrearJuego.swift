@@ -1,12 +1,12 @@
+
+
+
 //
 //  CrearJuego.swift
 //  Final_SastreOkamoto
 //
 //  Created by alumno on 02/05/22.
 //
-
-import SwiftUI
-
 import SwiftUI
 //prueba
 struct CrearJuego: View {
@@ -15,6 +15,9 @@ struct CrearJuego: View {
   @State private var fecha = Date()
   @State private var jugadoresMin = 0
   @State private var jugadoresMax = 0
+  @State private var lugarSeleccionado = "Estadio Azteca"
+
+  let posiblesLugares = ["Estadio Azteca", "El Polvorín", "Estadio Azul", "Universidad Anáhuac", "Ciudad Universitaria"]
 
   @State private var keyboardOffset: CGFloat = 0
 
@@ -32,6 +35,11 @@ struct CrearJuego: View {
             Stepper(value: $jugadoresMax, in: 3...25, label: {
               Text("Jugadores Máximos: \(self.jugadoresMax)")
             })
+            Picker("Lugar del Juego", selection: $lugarSeleccionado) {
+              ForEach(posiblesLugares, id: \.self){
+                Text($0)
+              }
+            }
 
 
       }.navigationBarTitle(Text("Crea un juego"))
@@ -61,12 +69,20 @@ struct CrearJuego: View {
           }
         }
       }.background(Color(UIColor.systemGray6))
-      Button(action: {}){
-        NavigationLink(destination: MenuPrincipal()){
+      Button(action: {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .medium
+        dateFormatter.timeStyle = .medium
+        dateFormatter.timeZone = TimeZone(abbreviation: "GMT-5")
+        let timezone = TimeZone.current
+        print("\(timezone)\n")
+        print(dateFormatter.string(from: fecha))
+      }){
+        //NavigationLink(destination: MenuPrincipal()){
           Text("CREAR".uppercased())
               .modifier(CustomTextM(fontName: "OpenSans-Bold", fontSize: 14, fontColor: Color.black))
               .modifier(ButtonStyle(buttonHeight: 60, buttonColor: Color.white.opacity(0.15), buttonRadius: 10))
-        }
+        //}
       }
     }
   }

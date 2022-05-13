@@ -6,15 +6,28 @@
 //
 
 import SwiftUI
+import MapKit
+
+struct Place: Identifiable {
+  let id = UUID()
+  var name: String
+  var coordinate: CLLocationCoordinate2D
+}
 
 struct ProxJuegosDetalle: View {
-    var body: some View {
+  @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 19.427620, longitude: -99.160866), span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.1))
+
+  var lugares = [
+    Place(name: "Prueba", coordinate: CLLocationCoordinate2D(latitude: 19.426779, longitude: -99.167527))
+  ]
+
+  var body: some View {
       VStack  {
-        Text("Detalles del Platillo")
+        Text("Detalles del juego")
           .font(Font.system(size: 16, weight: .bold))
-        Text("Estadio Azteca")
+        Text("Luegar: Estadio Azteca")
           .padding()
-        Text("Dirección")
+        Text("Dirección: Avenida Lol")
           .padding()
       }.padding()// fin VStack
 
@@ -27,6 +40,18 @@ struct ProxJuegosDetalle: View {
         }placeholder: {
           ProgressView()
         }
+      }
+
+      VStack{
+        Map(coordinateRegion: $region, annotationItems: lugares){ place in
+          MapAnnotation(coordinate: place.coordinate) {
+            NavigationLink {
+
+            } label: {
+              PlaceAnnotationView(title: place.name)
+            }
+          }
+        }.frame(width: 400, height: 300)
       }
     }
 }
