@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct MenuPrincipal: View {
-
   var body: some View {
     NavigationView{
       List{
@@ -33,8 +32,8 @@ struct MenuPrincipal: View {
   }
 }
 
-//struct MenuPrincipal_Previews: PreviewProvider {
-//    static var previews: some View {
-//        MenuPrincipal()
-//    }
-//}
+struct MenuPrincipal_Previews: PreviewProvider {
+    static var previews: some View {
+        MenuPrincipal()
+   }
+}
